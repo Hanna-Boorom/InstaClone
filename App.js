@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { View, Text } from "react-native";
 import firebase from "firebase/app";
+require("dotenv").config();
 
 const firebaseConfig = {
   apiKey: "AIzaSyBe3SfknivwLjuOjSASWJTkvJydlLDAu-A",
